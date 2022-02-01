@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link css -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- Fuente texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- Link Font Awesome -->   
+    <script src="https://kit.fontawesome.com/6fb33618c5.js" crossorigin="anonymous"></script>
+    <title>Consulta</title>
+</head>
+<body class="gridConsulta">
+    <header class="encabezado">
+        <h1 class="titulo">Sucio y Desprolijo</h1>
+        <nav>
+            <div class="divUlContacto">
+                <ul class="ulContacto">
+                    <li  class="liContacto"><a href="./contacto.html" class="detalleContacto"><i class="fas fa-address-book"></i></a></li>
+                </ul>
+            </div>
+            <!-- Menú desplegable -->
+            <div class="divUlDesplegable">
+                <ul class="navDesplegable">
+                    <li class="desplegable">
+                        <i class="fas fa-bars"></i>
+                        <ul class="ulDesplegable">
+                            <li class="liDesplegable"><a href="../index.html" class="detalleDesplegable">Inicio</a></li>
+                            <li class="liDesplegable"><a href="./consulta.html" class="detalleDesplegable">Consulta</a></li>
+                            <li class="liDesplegable"><a href="./galeria.html" class="detalleDesplegable">Galería</a></li>
+                            <li class="liDesplegable"><a href="./nuestrosdiseños.html" class="detalleDesplegable">Diseños</a></li>
+                        </ul>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+    </header>
+    <main class="cuerpoConsulta">
+        <h2 class="subTitulo">Hacenos una Consulta</h2>
+        <form>
+            <div class="divFormulario">
+                <label>Nombre:</label>
+                <input type="text" placeholder="Escribí tu Nombre" class="formulario">
+            </div>
+            <div class="divFormulario">
+                <label>Apellido:</label>
+                <input type="text" placeholder="Escribí tu Apellido" class="formulario">
+            </div>
+            <div class="divFormulario">
+                <label for="emailContacto">E-mail:</label>
+                <input type="email" id="emailcontacto" placeholder="Escribí tu email" class="formulario">
+            </div>
+            <div class="divFormulario">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escribí tu consulta" class="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar Todo">
+            </div>
+        </form>
+    </main>
+    <footer class="pie">
+        <ul>
+            <li class="liPie"><a href="https://www.facebook.com"target="_blank" class="detallePie"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="liPie"><a href="https://www.instagram.com"target="_blank" class="detallePie"><i class="fab fa-instagram-square"></i></a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
