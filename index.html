@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link css -->
-    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Coder</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Fuente texto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <!-- Link Font Awesome -->   
     <script src="https://kit.fontawesome.com/6fb33618c5.js" crossorigin="anonymous"></script>   
-    <title>Proyecto Coder</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="gridIndex">
-    <header class="encabezado">
+<body class="cuerpoIndex">
+    <header class="container-fluid encabezado">
         <h1 class="titulo">Sucio y Desprolijo</h1>
         <nav>
             <div class="divUlContacto">
@@ -39,25 +41,27 @@
             </div>
         </nav>
     </header>
-    <main class="cuerpoIndex">
-        <section>
+    <main class="container cuerpoIndex">
+        <section class="row contenedor">
             <h2 class="subTitulo">Quienes Somos</h2>
-            <p class="pIndex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo esse excepturi eius nisi tempora placeat quibusdam expedita voluptatibus numquam maxime, maiores beatae ullam earum? Tempora ducimus corporis quasi expedita.</p>
+            <p class="col 10 pIndex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo esse excepturi eius nisi tempora placeat quibusdam expedita voluptatibus numquam maxime, maiores beatae ullam earum? Tempora ducimus corporis quasi expedita.</p>
         </section>
-        <section class="imagenesIndex">
+        <section class="row imagenesIndex">
             <div class="imagenIndex">
-                <img class="imagenIndex1" src="sketch/Sy (1).jpg" alt="Imagenproducto1">
+                <img class="col 5 imagenIndex1" src="sketch/Sy (1).jpg" alt="Imagenproducto1">
             </div>
             <div class="imagenIndex">
-                <img class="imagenIndex1" src="sketch/Sy (1).jpg" alt="imagenproducto2">
+                <img class="col 5 imagenIndex1" src="sketch/Sy (1).jpg" alt="imagenproducto2">
             </div>
             </section>
     </main>
-    <footer class="pie">
+    <footer class="container-fluid pie">
             <ul>
                 <li class="liPie"><a href="https://www.facebook.com"target="_blank" class="detallePie"><i class="fab fa-facebook-square"></i></a></li>
                 <li class="liPie"><a href="https://www.instagram.com"target="_blank" class="detallePie"><i class="fab fa-instagram-square"></i></a></li>
             </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
