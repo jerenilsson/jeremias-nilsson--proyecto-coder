@@ -21,15 +21,8 @@
 .divUlContacto{
     position: absolute;
     right: 0%;
-    margin-top: 0.75vw;
+    margin-top: 0.5vw;
     margin-right: 2vw;
-}
-.divUlDesplegable{
-    position: absolute;
-    left: 0%;
-    margin-top: 0.75vw;
-    margin-left: 2vw;
-
 }
 .detalleContacto{
     font-family:'Raleway', sans-serif;
@@ -40,41 +33,11 @@
 .detalleContacto:hover{
     color: #4F5E75;
 }
-.detalleDesplegable{
-    font-family:'Raleway', sans-serif;
-    color: #EF8354;
-    text-decoration: none;
-    font-size: 1.5vw;
-}
 .liContacto{
     list-style: none;
 }
-.liDesplegable{
-    list-style: none;
-}
 .desplegable{
-    cursor: pointer;
-    position: relative;
-    font-size: 4vw;
-    color: #EF8354;
-    list-style: none;
-}
-.desplegable:hover{
-    color: #4F5E75;
-}
-.ulDesplegable li{
-    display: block;
-}
-.ulDesplegable{
-    background-color: #2E3142;
-    width: 200%;
-    position: absolute;
-    left: 0%;
-    top: 1.5vw;
-    display: none;
-}
-.desplegable:hover .ulDesplegable{
-    display: block;
+    font-size: 2vw;
 }
 .pie{
     width: 100%;
