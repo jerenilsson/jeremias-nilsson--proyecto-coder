@@ -2,30 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.gridIndex, .gridConsulta{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
-    background-color: #FFFFFF;
-    font-family:'Raleway', sans-serif;
-}
-.gridGaleria, .gridDiseños{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 15fr 1fr;
-    background-color: #FFFFFF;
-    font-family:'Raleway', sans-serif;
-}
-.gridContacto{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 0.5fr 15fr 0.01fr;
-    background-color: #FFFFFF;
-    font-family:'Raleway', sans-serif;
-}
 .encabezado{
-    grid-column: 1/4;
-    grid-row: 1/2;
     background-image: linear-gradient(#4F5E75, #BFC1C0);
     position: sticky;
     top: 0%;
@@ -100,9 +77,6 @@
     display: block;
 }
 .pie{
-    grid-column: 1/4;
-    grid-row: 4/4;
-    gap: 2.5vw;
     width: 100%;
     height: 2.5vw;
     background-image: linear-gradient( #BFC1C0, #4F5E75);
@@ -123,12 +97,9 @@
 .detallePie:hover{
     color: #4F5E75;
 }
-.cuerpoIndex, .cuerpoConsulta, .cuerpoGaleria, .cuerpoDiseños, .cuerpoContacto{
-    grid-column: 1/4;
-    grid-row: 2/3;
-}
 .subTitulo{
     margin-top: 1%;
+    margin-bottom: 2.5vw;
     cursor: default;
     color: #EF8354;
     font-size: 4vw;
@@ -146,12 +117,13 @@
 }
 .divFormulario{
     margin-top: 1vw;
+    margin-bottom: 2vw;
     margin-left: 5vw;
     color: #EF8354;
     font-size: 2vw;
 }
 .formulario{
-    width: 8vw;
+    width: 17vw;
     height: 2vw;
 }
 .mensaje{
@@ -160,6 +132,7 @@
 }
 .subSubTitulo{
     cursor: default;
+    margin-bottom: 2vw;
     color: #EF8354;
     font-size: 2.5vw;
     text-align: left;
@@ -168,25 +141,9 @@
 .mapa{
     width: 100%;
 }
-.imagenesIndex{
-    width: 100%;
-    height: 40vw;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-}
 .imagenIndex{
-    border: 1px solid coral;
-    width: 37vw;
-    height: 37vw;
-}
-.imagenIndex1{
-    width: 35vw;
-    height: 35vw;
-    object-fit: cover;
+    margin-bottom: 2.5vw;
+    margin-top: 2vw;
 }
 .galeria{
     display: flex;
@@ -240,6 +197,7 @@
     height: 25vw;
     object-fit: cover;
     margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 .ulContactos{
     list-style: none;
