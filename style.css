@@ -145,6 +145,8 @@
     text-align: center;
 }
 .divFormulario{
+    margin-top: 1vw;
+    margin-left: 5vw;
     color: #EF8354;
     font-size: 2vw;
 }
@@ -199,6 +201,7 @@
     width: 25vw;
     height: 25vw;
     object-fit: cover;
+    transition: width 2s, height 2s;
     margin: 2%;
 }
 .imgGaleria:hover{
@@ -236,7 +239,7 @@
     width: 25vw;
     height: 25vw;
     object-fit: cover;
-    margin-top: 2%;
+    margin-top: 2vw;
 }
 .ulContactos{
     list-style: none;
