@@ -105,6 +105,9 @@
     width: 100%;
 }
 .imagenIndex{
+    border: 1px solid coral;
+    width: 35vw;
+    height: 35vw;
     margin-bottom: 2.5vw;
     margin-top: 2vw;
 }
