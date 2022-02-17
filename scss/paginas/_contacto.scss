@@ -1,0 +1,46 @@
+.contactos{
+    display: flex;
+    width: 90%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.imgContacto{
+    border: 1px solid coral;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    margin-top: 2%;
+}
+.ulContactos{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2%;
+}
+.detalleContactos{
+    height: 2.5vw;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.5vw;
+    color: #EF8354;
+    text-decoration: none;
+}
+.liContactos:hover{
+    animation-name: color;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+}
+@keyframes color{
+    0%{
+        background-color: #FFFFFF;
+    }
+    50%{
+        background-color: #4F5E75;
+    }
+    100%{
+        background-color: #2E3142;
+    }
+}   
+.mapa{
+    width: 100%;
+}

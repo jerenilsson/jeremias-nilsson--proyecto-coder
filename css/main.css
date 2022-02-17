@@ -1,0 +1,242 @@
+@charset "UTF-8";
+.divFormulario {
+  margin-bottom: 2%;
+  color: #EF8354;
+  font-size: 2vw; }
+
+.formulario {
+  width: 15vw;
+  height: 2vw; }
+
+.mensaje {
+  width: 40vw;
+  height: 40vw; }
+
+.contactos {
+  display: flex;
+  width: 90%;
+  margin-left: 2%;
+  margin-bottom: 2%; }
+
+.imgContacto {
+  border: 1px solid coral;
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+  margin-top: 2%; }
+
+.ulContactos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 2%; }
+
+.detalleContactos {
+  height: 2.5vw;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+  color: #EF8354;
+  text-decoration: none; }
+
+.liContactos:hover {
+  animation-name: color;
+  animation-duration: 10s;
+  animation-delay: 0.5s; }
+
+@keyframes color {
+  0% {
+    background-color: #FFFFFF; }
+  50% {
+    background-color: #4F5E75; }
+  100% {
+    background-color: #2E3142; } }
+
+.mapa {
+  width: 100%; }
+
+.pDiseños {
+  margin: 10%;
+  margin-bottom: 0%;
+  cursor: default;
+  margin-top: 2%;
+  color: #EF8354;
+  font-size: 2vw; }
+
+.diseños {
+  display: flex;
+  width: 90%;
+  margin: 1%;
+  margin-bottom: 4%; }
+
+.imgDiseños {
+  border: 1px solid coral;
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover; }
+
+.galeria {
+  display: flex;
+  overflow-x: scroll;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 4%; }
+
+.imgGaleria {
+  cursor: grab;
+  border: 1px solid coral;
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+  transition: width 2s, height 2s;
+  margin: 2%; }
+  .imgGaleria:hover {
+    width: 30vw;
+    height: 30vw; }
+
+.pIndex {
+  margin: 10%;
+  margin-bottom: 0%;
+  cursor: default;
+  margin-top: 2%;
+  color: #EF8354;
+  font-size: 2vw;
+  text-align: center; }
+
+.imagenesIndex {
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center; }
+
+.imagenIndex {
+  border: 1px solid coral;
+  width: 37vw;
+  height: 37vw; }
+
+.imagenIndex1 {
+  width: 35vw;
+  height: 35vw;
+  object-fit: cover; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.encabezado {
+  background-image: linear-gradient(#4F5E75, #BFC1C0);
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  height: 6vw; }
+
+.titulo {
+  cursor: default;
+  font-size: 4.5vw;
+  text-align: center;
+  color: #EF8354;
+  position: absolute;
+  right: 10%;
+  left: 10%; }
+
+.divUlContacto {
+  position: absolute;
+  right: 0%;
+  margin-top: 0.25vw;
+  margin-right: 2vw; }
+
+.divUlDesplegable {
+  position: absolute;
+  left: 0%;
+  margin-top: 0.25vw;
+  margin-left: 2vw; }
+
+.detalleContacto {
+  font-family: 'Raleway', sans-serif;
+  color: #EF8354;
+  font-size: 4vw;
+  text-decoration: none; }
+  .detalleContacto:hover {
+    color: #4F5E75; }
+
+.detalleDesplegable {
+  font-family: 'Raleway', sans-serif;
+  color: #EF8354;
+  text-decoration: none;
+  font-size: 1.5vw; }
+
+.liContacto {
+  list-style: none; }
+
+.liDesplegable {
+  list-style: none; }
+
+.desplegable {
+  cursor: pointer;
+  position: relative;
+  font-size: 4vw;
+  color: #EF8354;
+  list-style: none; }
+  .desplegable:hover {
+    width: 5vw;
+    color: #4F5E75; }
+
+.ulDesplegable li {
+  display: block; }
+
+.ulDesplegable {
+  background-color: #2E3142;
+  width: 200%;
+  position: absolute;
+  left: 0%;
+  top: 1.5vw;
+  display: none; }
+
+.desplegable:hover .ulDesplegable {
+  display: block; }
+
+.pie {
+  gap: 2.5vw;
+  width: 100%;
+  height: 2.5vw;
+  background-image: linear-gradient(#BFC1C0, #4F5E75);
+  bottom: 0%;
+  text-align: right; }
+
+.liPie {
+  display: inline;
+  position: relative; }
+
+.detallePie {
+  margin: 1%;
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  color: #EF8354;
+  text-decoration: none; }
+  .detallePie:hover {
+    color: #4F5E75; }
+
+.subTitulo {
+  margin-bottom: 2%;
+  margin-top: 1%;
+  cursor: default;
+  color: #EF8354;
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: underline; }
+
+.subSubTitulo {
+  margin-bottom: 2%;
+  cursor: default;
+  color: #EF8354;
+  font-size: 2.5vw;
+  text-align: left;
+  text-decoration: solid; }
+
+@media only screen and (min-width: 780px) {
+  .pie {
+    position: sticky; } }

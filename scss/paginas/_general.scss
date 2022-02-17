@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-image: linear-gradient(#4F5E75, #BFC1C0);
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 6vw;
+}
+.titulo{
+    cursor: default;
+    font-size: 4.5vw;
+    text-align: center;
+    color: #EF8354;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+}
+.divUlContacto{
+    position: absolute;
+    right: 0%;
+    margin-top: 0.25vw;
+    margin-right: 2vw;
+}
+.divUlDesplegable{
+    position: absolute;
+    left: 0%;
+    margin-top: 0.25vw;
+    margin-left: 2vw;
+
+}
+.detalleContacto{
+    font-family:'Raleway', sans-serif;
+    color: #EF8354;
+    font-size: 4vw;
+    text-decoration: none; 
+
+    &:hover{
+        color: #4F5E75;
+    }
+}
+.detalleDesplegable{
+    font-family:'Raleway', sans-serif;
+    color: #EF8354;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.liContacto{
+    list-style: none;
+}
+.liDesplegable{
+    list-style: none;
+}
+.desplegable{
+    cursor: pointer;
+    position: relative;
+    font-size: 4vw;
+    color: #EF8354;
+    list-style: none;
+
+    &:hover{
+        width: 5vw;
+        color: #4F5E75;
+    }
+}
+.ulDesplegable li{
+    display: block;
+}
+.ulDesplegable{
+    background-color: #2E3142;
+    width: 200%;
+    position: absolute;
+    left: 0%;
+    top: 1.5vw;
+    display: none;
+}
+.desplegable:hover .ulDesplegable{
+    display: block;
+}
+.pie{
+    gap: 2.5vw;
+    width: 100%;
+    height: 2.5vw;
+    background-image: linear-gradient( #BFC1C0, #4F5E75);
+    bottom: 0%;
+    text-align: right;
+}
+.liPie{
+    display: inline;
+    position: relative;
+}
+.detallePie{
+    margin: 1%;
+    font-size: 2vw;
+    font-family:'Raleway', sans-serif;
+    color: #EF8354;
+    text-decoration: none;
+
+    &:hover{
+        color: #4F5E75;
+    }
+}
+.subTitulo{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    cursor: default;
+    color: #EF8354;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+}
+.subSubTitulo{
+    margin-bottom: 2%;
+    cursor: default;
+    color: #EF8354;
+    font-size: 2.5vw;
+    text-align: left;
+    text-decoration: solid;
+}
+@media only screen and (min-width: 780px) {
+    .pie{
+        position: sticky;
+    }
+}
