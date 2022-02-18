@@ -1,0 +1,5 @@
+Agregué titulos y descripción a los htmls para cada pagina
+
+Agregue las palabras claves (herreria, artesanal, muebles, hierro, a medida, pedido, torcuato)
+
+Ya tenía sub titulos con h2 y h3
