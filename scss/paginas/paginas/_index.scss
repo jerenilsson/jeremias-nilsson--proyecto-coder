@@ -5,7 +5,7 @@
     margin-top: 2%;
     font-size: 2vw;
     text-align: center;
-    color: #EF8354;
+    color: map-get ( $colores, prifont);
 }
 .imagenesIndex{
     width: 100%;
