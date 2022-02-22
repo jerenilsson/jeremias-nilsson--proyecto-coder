@@ -1,7 +1,6 @@
 .galeria{
-    display: flex;
+    @extend %flex;
     overflow-x: scroll;
-    width: 90%;
     margin: auto;
     margin-bottom: 4%;
 }

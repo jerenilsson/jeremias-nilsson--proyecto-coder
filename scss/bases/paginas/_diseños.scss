@@ -3,12 +3,11 @@
     margin-bottom: 0%;
     cursor: default;
     margin-top: 2%;
-    color: #EF8354;
+    color: map-get($colores , primarioTxt );
     font-size: 2vw;
 }
 .diseños{
-    display: flex;
-    width: 90%;
+    @extend %flex;
     margin: 1%;
     margin-bottom: 4%;
 }
