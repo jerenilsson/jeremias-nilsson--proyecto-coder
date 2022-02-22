@@ -21,8 +21,15 @@
 .divUlContacto{
     position: absolute;
     right: 0%;
-    margin-top: 0.5vw;
+    margin-top: 0.25vw;
     margin-right: 2vw;
+}
+.divUlDesplegable{
+    position: absolute;
+    left: 0%;
+    margin-top: 0.25vw;
+    margin-left: 2vw;
+
 }
 .detalleContacto{
     font-family:'Raleway', sans-serif;
@@ -37,9 +44,31 @@
     list-style: none;
 }
 .desplegable{
-    font-size: 2vw;
+    cursor: pointer;
+    position: relative;
+    font-size: 4vw;
+    color: #EF8354;
+    list-style: none;
+}
+.desplegable:hover{
+    width: 5vw;
+    color: #4F5E75;
+}
+.ulDesplegable li{
+    display: block;
+}
+.ulDesplegable{
+    width: 200%;
+    position: absolute;
+    left: 0%;
+    top: 1.5vw;
+    display: none;
+}
+.desplegable:hover .ulDesplegable{
+    display: block;
 }
 .pie{
+    gap: 2.5vw;
     width: 100%;
     height: 2.5vw;
     background-image: linear-gradient( #BFC1C0, #4F5E75);
@@ -61,6 +90,7 @@
     color: #4F5E75;
 }
 .subTitulo{
+    margin-bottom: 2%;
     margin-top: 1%;
     margin-bottom: 2.5vw;
     cursor: default;
@@ -79,14 +109,12 @@
     text-align: center;
 }
 .divFormulario{
-    margin-top: 1vw;
-    margin-bottom: 2vw;
-    margin-left: 5vw;
+    margin-bottom: 2%;
     color: #EF8354;
     font-size: 2vw;
 }
 .formulario{
-    width: 17vw;
+    width: 15vw;
     height: 2vw;
 }
 .mensaje{
@@ -94,6 +122,7 @@
     height: 40vw;
 }
 .subSubTitulo{
+    margin-bottom: 2%;
     cursor: default;
     margin-bottom: 2vw;
     color: #EF8354;
@@ -199,4 +228,4 @@
     100%{
         background-color: #2E3142;
     }
-} 
+}   

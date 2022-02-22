@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-image: linear-gradient(map-get($colores , primario ), map-get($colores , secundario ));
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 6vw;
+}
+.titulo{
+    cursor: default;
+    font-size: 4.5vw;
+    text-align: center;
+    color: map-get($colores , primarioTxt );
+    position: absolute;
+    right: 10%;
+    left: 10%;
+}
+.divUlContacto{
+    position: absolute;
+    right: 0%;
+    margin-top: 0.25vw;
+    margin-right: 2vw;
+}
+.divUlDesplegable{
+    position: absolute;
+    left: 0%;
+    margin-top: 0.25vw;
+    margin-left: 2vw;
+
+}
+.detalleContacto{
+    font-family:'Raleway', sans-serif;
+    color: map-get($colores , primarioTxt );
+    font-size: 4vw;
+    text-decoration: none; 
+
+    &:hover{
+        color: map-get($colores , primario );
+    }
+}
+.detalleDesplegable{
+    font-family:'Raleway', sans-serif;
+    color: map-get($colores , primarioTxt );
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.liContacto{
+    list-style: none;
+}
+.liDesplegable{
+    list-style: none;
+}
+.desplegable{
+    cursor: pointer;
+    position: relative;
+    font-size: 4vw;
+    color: map-get($colores , primarioTxt );
+    list-style: none;
+
+    &:hover{
+        width: 5vw;
+        color: map-get($colores , primario );
+    }
+}
+.ulDesplegable li{
+    display: block;
+}
+.ulDesplegable{
+    width: 200%;
+    position: absolute;
+    left: 0%;
+    top: 1.5vw;
+    display: none;
+}
+.desplegable:hover .ulDesplegable{
+    display: block;
+}
+.pie{
+    gap: 2.5vw;
+    width: 100%;
+    height: 2.5vw;
+    background-image: linear-gradient( map-get($colores , secundario ), map-get($colores , primario ));
+    bottom: 0%;
+    text-align: right;
+}
+.liPie{
+    display: inline;
+    position: relative;
+}
+.detallePie{
+    margin: 1%;
+    font-size: 2vw;
+    font-family:'Raleway', sans-serif;
+    color: map-get($colores , primarioTxt );
+    text-decoration: none;
+
+    &:hover{
+        color: map-get($colores , primario );
+    }
+}
+.subTitulo{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    cursor: default;
+    color: map-get($colores , primarioTxt );
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+}
+.subSubTitulo{
+    margin-bottom: 2%;
+    cursor: default;
+    color: map-get($colores , primarioTxt );
+    font-size: 2.5vw;
+    text-align: left;
+    text-decoration: solid;
+}
+@include mediaQuery (780px){
+    .pie{
+        position: sticky;
+    }
+}

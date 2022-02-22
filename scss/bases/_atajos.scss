@@ -1,0 +1,17 @@
+$colores: (
+    primarioTxt: #EF8354,
+    primario: #4F5E75,
+    secundario: #BFC1C0,
+    transit: #2E3142,
+);
+
+%flex{
+    display: flex;
+    width: 90%;
+};
+
+@mixin mediaQuery ($tamano) {
+    @media only screen and (min-width: $tamano) {
+        @content
+    }
+};
